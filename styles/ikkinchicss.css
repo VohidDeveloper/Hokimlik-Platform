@@ -1,0 +1,164 @@
+body {
+    background-image: url(washi.png);
+}
+
+.container-fluid {
+    background-color: rgba(241, 241, 241, 1);
+}
+
+/*
+#span {
+    width: 8%;
+    text-decoration: none;
+    color: #030303;
+}
+*/
+#logo {
+    width:5%;
+}
+
+a:hover {
+    transform: scale(1.03, 1.03);
+    text-decoration: none;
+    color: #030303;
+    cursor: pointer;
+}
+.fas{
+     transform: scale(1.03, 1.03);
+}
+.a:hover{
+     transform: scale(1.03, 1.03);
+}
+.a {
+    width: 16%;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    width: 50px;
+}
+
+.btn:hover {
+    background-color: #f1f1f1;
+
+}
+
+#containeradaptiv {
+    width: 70%;
+}
+.hovereffects:hover{
+   
+    border: 3px solid rgba(18, 20, 75, 0.8);
+   
+}
+.card {
+    background-color: rgba(241, 241, 241, 0.6);
+    border: 1px solid rgba(18, 20, 75, 0.4);
+
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:1000px) and (min-width:800px) {
+
+    #logo {
+        width: 6%;
+    }
+
+    .a {
+        width: 20%;
+        position: absolute;
+        top:0px;
+        left: 130px;
+        margin-top: -10px;
+    }
+/*    #logo2*/
+    #containeradaptiv {
+        width: 80%;
+    }
+
+    .card-deck {
+        display: block;
+
+
+    }
+}
+
+
+.navbar-toggler{
+    color: #f1f1f1;
+    border: none;
+}
+
+
+
+@media only screen and (max-width:800px) and (min-width:700px) {
+
+    #logo {
+        width: 8%;
+    }
+
+    .a {
+        width: 24%;
+        position: absolute;
+        top:0px;
+        left: 130px;
+        margin-top: -10px;
+    }
+    #containeradaptiv {
+        width: 80%;
+    }
+
+    .card-deck {
+        display: block;
+
+
+    }
+
+}
+
+@media only screen and (max-width:700px) and (min-width:567px) {
+      #logo {
+        width: 10%;
+    }
+
+    .a {
+        width: 28%;
+        position: absolute;
+        top:0px;
+        left: 130px;
+        margin-top: -10px;
+    }
+    #containeradaptiv {
+        width: 70%;
+    }
+
+    .card-deck {
+        display: block;
+
+
+    }
+
+}
+@media only screen and (max-width:567px){
+      #logo {
+        width: 14%;
+    }
+
+    .a {
+        width: 28%;
+        position: absolute;
+        top:0px;
+        left: 130px;
+/*        margin-top: -4px;*/
+    }
+    #containeradaptiv {
+        width: 70%;
+    }
+
+    .card-deck {
+        display: block;
+
+
+    }
+
+}

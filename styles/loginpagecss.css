@@ -1,0 +1,195 @@
+body {
+    background-image: url(washi.png);
+}
+
+#sidenavcolor {
+    background-color: rgba(18, 20, 75, 0.85);
+    /*    overflow-x: hidden;*/
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    left: 0px;
+    min-height: 740px;
+    top: 0px;
+    float: left;
+    z-index: 1;
+}
+
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.hovereffect:hover {
+
+    color: #f1f1f1;
+    text-decoration: none;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+i {
+    color: #f1f1f1;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.03, 1.03);
+}
+.card-columns .card{
+     border: 1px solid rgba(18, 20, 75, 0.4);
+/*    box-shadow: 0px 0px 2px 2px rgba(18, 20, 75, 0.4);*/
+    margin: 5px;
+    
+}
+.card-columns .card:hover{
+    transform: scale(1.05,1.05);
+}
+.footerr {
+    display: none;
+}
+
+#mainsidenav2 {
+    position: absolute;
+    right: 0px;
+}
+
+#sidenavcolor2 {
+    background-color: rgba(241, 241, 241, 0.8);
+    /*    overflow-x: hidden;*/
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    right: 0px;
+    /*    min-height: 740px;*/
+    top: 0px;
+    min-height: 740px;
+    z-index: -1;
+}
+
+.col-md-4 {
+    align-items: center;
+    background-color: transparent;
+}
+
+.item {
+    color: #f1f1f1;
+    background-color: red;
+}
+
+#positioncopy {
+    position: relative;
+    bottom: 0px;
+}
+
+nav {
+    background-color: rgba(18, 20, 75);
+    display: none;
+}
+
+.navlogo {
+    display: inline-block;
+}
+
+.navblock {
+    display: none;
+}
+
+.containertop {
+    margin-top: 8%;
+    border: 1px solid rgba(18, 20, 75, 0.4);
+    box-shadow: 0px 0px 2px 2px rgba(18, 20, 75, 0.4);
+    border-radius: 10px;
+    width: 50%;
+}
+
+.input-group {
+    background-color: transparent;
+    border: 1px 0px 1px 1px;
+    /*
+    border-color:  rgba(18, 20, 75, 0.4);
+    border-style: solid;
+    box-shadow: 0px 0px 0.5px 0.5px rgba(18, 20, 75, 0.4);
+    border-radius: 10px;
+*/
+}
+
+#containerdisplay:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.btn {
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    transform: scale(1.05,1.05);
+}
+.bordernone {
+    border: none;
+}
+
+
+/*
+.input-group-text{
+    background-color: transparent;
+}
+*/
+@media only screen and (max-width:1000px) and (min-width:780px) {
+    .fab {
+        font-size: 20px;
+    }
+
+    .fas {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    .contanericon .row {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .displaynone {
+        display: none;
+    }
+
+    .navblock {
+        display: inline-block;
+    }
+
+    .fa-bars {
+        font-size: 26px;
+    }
+
+    #sidenavcolor2 {
+        width: 100%;
+    }
+
+    .containertop {
+        width: 86%;
+        margin-top: 130px;
+    }
+
+    .footerr {
+        display: inline-block;
+    }
+
+    #mainsidenav2 {
+        position: relative;
+        right: 0px;
+    }
+}
